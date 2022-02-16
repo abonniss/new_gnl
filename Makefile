@@ -41,11 +41,11 @@ LIB_NAME = ftprintf
 PATH_SRCS = srcs
 
 #SOURCES
-SRCS += gnl.c
+SRCS += get_next_line_2.c
 SRCS += main.c
 
 #HEADERS
-HEADERS += gnl.h
+HEADERS += get_next_line_2.h
 
 #VPATH
 vpath %.c $(PATH_SRCS)

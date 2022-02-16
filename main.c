@@ -1,4 +1,4 @@
-#include "gnl.h"
+#include "get_next_line_2.h"
 
 int main(int ac, char **av)
 {
@@ -12,7 +12,7 @@ int main(int ac, char **av)
 
     file_name = av[1];
     fd = open(file_name, O_RDONLY);
-    while (get_next_line(fd, &str) > 0)
+    while (get_next_line_2(fd, &str) > 0)
         ft_printf("Retour GNL : (%s)\n", str);
     return (0);
 }
